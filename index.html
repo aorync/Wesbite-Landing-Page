@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- header -->
+
+    <header class="header-padding">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#"
+            >RBConstruction<span class="titik">.</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav gap-1">
+              <li class="nav-item nav-items">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item nav-items">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item nav-items">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item nav-items">
+                <a class="nav-link" href="#">PROJECT</a>
+              </li>
+              <li class="nav-item nav-items">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item nav-items dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  DROPDOWN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-items">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- end header -->
+
+    <section id="home">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1650">
+            <img
+              src="assets/img/hero-carousel/hero-carousel-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="1650">
+            <img
+              src="assets/img/hero-carousel/hero-carousel-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="1650">
+            <img
+              src="assets/img/hero-carousel/hero-carousel-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="1650">
+            <img
+              src="assets/img/hero-carousel/hero-carousel-4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="1650">
+            <img
+              src="assets/img/hero-carousel/hero-carousel-5.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div
+        class="info text-center position-absolute top-50 start-50 translate-middle"
+      >
+        <h2 class="text-title" data-aos="fade-down" data-aos-delay="100">Welcome to <span>RBConstruction</span></h2>
+        <p data-aos="fade-up">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+
+        <a href="#" data-aos="fade-up" class="btn-get-started">Get Started</a>
+      </div>
+    </section>
+
+    <section id="form" class="d-flex">
+      <div class="container d-flex py-5 gap-4">
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <h1 class="fw-bold text-form">
+            Minus hic non reiciendis ea possimus at quia.
+          </h1>
+          <p>
+            Rem id rerum. Debitis deserunt quidem delectus expedita ducimus
+            dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque
+            perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi
+            possimus ut delectus dicta. <br /><br />
+
+            Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit
+            eligendi labore culpa eos. Deserunt porro magni qui necessitatibus
+            dolorem at animi cupiditate.
+          </p>
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div class="card-form p-4">
+            <h6 class="fw-bold">GET A QUOTE</h6>
+            <p>
+              Vel nobis odio laboriosam et hic voluptatem. Inventore vitae
+              totam. Rerum repellendus enim linead sero park flows.
+            </p>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="form-label">Telephone</label>
+                <input type="text" class="form-control" id="phone" />
+              </div>
+
+              <div class="mb-3">
+                <label for="msg" class="form-label">Pesan</label>
+                <textarea
+                  class="form-control custom-textarea"
+                  id="msg"
+                  rows="8"
+                ></textarea>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-warning text-white">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Section Construction -->
+
+    <section id="construction">
+      <div class="text-center w-50 container mb-4">
+        <h1 class="text-construction fw-bold">Construction</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          architecto voluptates voluptas minus quam dolores maiores tempora
+          voluptate! Unde, non.
+        </p>
+      </div>
+
+      <div
+        class="card-construction d-flex flex-wrap gap-5 justify-content-center"
+      >
+        <div class="card-box">
+          <img
+            src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/constructions-1.jpg"
+            alt="gambar card 1"
+          />
+          <div class="text-card">
+            <h4>Eligendi omnis sunt veritatis.</h4>
+            <p>
+              Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi
+              voluptatem placeat deleniti adipisci. Cum delectus doloribus non
+              veritatis. Officia temporibus illo magnam. Dolor eos et.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img
+            src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/constructions-2.jpg"
+            alt="gambar card 2"
+          />
+          <div class="text-card">
+            <h4>Possimus ut sed velit assumenda</h4>
+            <p>
+              Sunt deserunt maiores voluptatem autem est rerum perferendis rerum
+              blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem
+              architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img
+            src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/constructions-3.jpg"
+            alt="gambar card 3"
+          />
+          <div class="text-card">
+            <h4>Error beatae dolor inventore aut</h4>
+            <p>
+              Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim
+              molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis
+              ipsum at architecto officia laboriosam odit. Ut sunt temporibus
+              nulla culpa.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-box">
+          <img
+            src="https://bootstrapmade.com/demo/templates/UpConstruction/assets/img/constructions-4.jpg"
+            alt="gambar card 4"
+          />
+          <div class="text-card">
+            <h4>Expedita voluptas ut ut nesciunt</h4>
+            <p>
+              Aut est quidem doloremque voluptatem magnam quis excepturi vero
+              quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat
+              suscipit et sint ratione dolores. Aut aliquid ea dolores libero
+              nobis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service">
+      <div class="container text-center w-50" data-aos="fade-up">
+          <h1 class="title-construction">Services</h1>
+          <p class="desc-construction">Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id
+              ratione ea sunt quis dolorem dolore earum</p>
+      </div>
+      <div class="d-flex flex-wrap justify-content-center gap-3" style="padding-top: 50px;">
+          <a href="http://getbootstrap.com/&quot; target="_blank" rel="noopener noreferrer"
+              class="card-service bg-white p-5">
+              <div class="icon-card"><i class="fa-solid fa-mountain-city"></i></div>
+              <div class="content-service mt-4">
+                  <h4 class="title-service">Nesciunt Mete</h4>
+                  <p class="mt-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                      dolores iure
+                      perferendis tempore et consequatur.</p>
+                  <p class="text-learn">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                  </p>
+              </div>
+          </a>
+          <a href="http://getbootstrap.com/&quot; target="_blank" rel="noopener noreferrer"
+              class="card-service bg-white p-5">
+              <div class="icon-card"><i class="fa-solid fa-mountain-city"></i></div>
+              <div class="content-service mt-4">
+                  <h4 class="title-service">Nesciunt Mete</h4>
+                  <p class="mt-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                      dolores iure
+                      perferendis tempore et consequatur.</p>
+                  <p class="text-learn">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                  </p>
+              </div>
+          </a>
+          <a href="http://getbootstrap.com/&quot; target="_blank" rel="noopener noreferrer"
+              class="card-service bg-white p-5">
+              <div class="icon-card"><i class="fa-solid fa-mountain-city"></i></div>
+              <div class="content-service mt-4">
+                  <h4 class="title-service">Nesciunt Mete</h4>
+                  <p class="mt-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                      dolores iure
+                      perferendis tempore et consequatur.</p>
+                  <p class="text-learn">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                  </p>
+              </div>
+          </a>
+          <a href="http://getbootstrap.com/&quot; target="_blank" rel="noopener noreferrer"
+              class="card-service bg-white p-5">
+              <div class="icon-card"><i class="fa-solid fa-mountain-city"></i></div>
+              <div class="content-service mt-4">
+                  <h4 class="title-service">Nesciunt Mete</h4>
+                  <p class="mt-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                      dolores iure
+                      perferendis tempore et consequatur.</p>
+                  <p class="text-learn">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                  </p>
+              </div>
+          </a>
+          <a href="http://getbootstrap.com/&quot; target="_blank" rel="noopener noreferrer"
+              class="card-service bg-white p-5">
+              <div class="icon-card"><i class="fa-solid fa-mountain-city"></i></div>
+              <div class="content-service mt-4">
+                  <h4 class="title-service">Nesciunt Mete</h4>
+                  <p class="mt-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                      dolores iure
+                      perferendis tempore et consequatur.</p>
+                  <p class="text-learn">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                  </p>
+              </div>
+          </a>
+          <a href="http://getbootstrap.com/&quot; target="_blank" rel="noopener noreferrer"
+              class="card-service bg-white p-5">
+              <div class="icon-card"><i class="fa-solid fa-mountain-city"></i></div>
+              <div class="content-service mt-4">
+                  <h4 class="title-service">Nesciunt Mete</h4>
+                  <p class="mt-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus
+                      dolores iure
+                      perferendis tempore et consequatur.</p>
+                  <p class="text-learn">Learn More <i class="fa-solid fa-arrow-right"></i></span>
+                  </p>
+              </div>
+          </a>
+      </div>
+  </section>
+
+  <!-- <section id="modisit" class="container">
+    <ul class="nav mb-3 justify-content-center w-100" id="pills-tab" role="tablist">
+      <li class="nav-item w-25" role="presentation">
+          <button class="nav-link btn btn-link active" id="pills-home-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+              aria-selected="true">Modisit</button>
+      </li>
+      <li class="nav-item w-25" role="presentation">
+          <button class="nav-link btn btn-link" id="pills-profile-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+              aria-selected="false">Praesenti</button>
+      </li>
+      <li class="nav-item w-25" role="presentation">
+          <button class="nav-link btn btn-link" id="pills-contact-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+              aria-selected="false">Explica</button>
+      </li>
+      <li class="nav-item w-25" role="presentation">
+          <button class="nav-link btn btn-link" id="pills-contact-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+              aria-selected="false">Nostrum</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active py-5" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+          tabindex="0">
+          <div class="col-md-6">
+            <h3 class="fw-bold title-tab">Voluptatem dignissimos provident</h3>
+            <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut incidunt ipsum obcaecati quidem eligendi accusantium itaque qui vitae omnis voluptatibus!</i></p>
+          </div>
+          <div class="col-md-6"></div>
+      </div>
+
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+          tabindex="0">tes2</div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+          tabindex="0">tes3</div>
+      <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+          tabindex="0">tes4</div>
+    </div>
+  </section> -->
+
+  <section id="tabs">
+    <ul class="nav mb-3 p-5" id="pills-tab" role="tablist">
+        <li class="nav-item w-25 d-flex justify-content-center nav-service-tab" role="presentation">
+            <button class="nav-link btn btn-link btn-tab active" id="pills-home-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                aria-selected="true">Modisit</button>
+        </li>
+        <li class="nav-item w-25 d-flex justify-content-center nav-service-tab" role="presentation">
+            <button class="nav-link btn btn-link btn-tab" id="pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                aria-selected="false">Praesenti</button>
+        </li>
+        <li class="nav-item w-25 d-flex justify-content-center nav-service-tab" role="presentation">
+            <button class="nav-link btn btn-link btn-tab" id="pills-contact-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">Explica</button>
+        </li>
+        <li class="nav-item w-25 d-flex justify-content-center nav-service-tab" role="presentation">
+            <button class="nav-link btn btn-link btn-tab" id="pills-contact-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-contact"
+                aria-selected="false">Nostrum</button>
+        </li>
+    </ul>
+    <div class="tab-content px-5 mb-5" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h3 class="title-right-side fw-bold" style="text-align: justify;">Voluptatem dignissimos
+                        provident
+                    </h3>
+                    <p class="mt-4 desc-feature">Lorem ipsum
+                        dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+
+                    <ul class="list-feature">
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Duis aute
+                            irure dolor in reprehenderit in voluptate velit</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                            in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="assets/img/feature/features-1.jpg" alt="gambar rusak" class="w-100">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade content-tab" id="pills-profile" role="tabpanel"
+            aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h3 class="title-right-side fw-bold" style="text-align: justify;">Voluptatem dignissimos
+                        provident
+                    </h3>
+                    <p class="mt-4 desc-feature">Lorem ipsum
+                        dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+
+                    <ul class="list-feature">
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Duis aute
+                            irure dolor in reprehenderit in voluptate velit</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                            in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="assets/img/feature/features-1.jpg" alt="gambar rusak" class="w-100">
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade content-tab" id="pills-contact" role="tabpanel"
+            aria-labelledby="pills-contact-tab" tabindex="0">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h3 class="title-right-side fw-bold" style="text-align: justify;">Voluptatem dignissimos
+                        provident
+                    </h3>
+                    <p class="mt-4 desc-feature">Lorem ipsum
+                        dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+
+                    <ul class="list-feature">
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Duis aute
+                            irure dolor in reprehenderit in voluptate velit</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                            in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="assets/img/feature/features-1.jpg" alt="gambar rusak" class="w-100">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade content-tab" id="pills-disabled" role="tabpanel"
+            aria-labelledby="pills-disabled-tab" tabindex="0">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h3 class="title-right-side fw-bold" style="text-align: justify;">Omnis fugiat ea explicabo sunt
+                    </h3>
+                    <p class="mt-4 desc-feature">Lorem ipsum
+                        dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+
+                    <ul class="list-feature">
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Duis aute
+                            irure dolor in reprehenderit in voluptate velit</li>
+                        <li><i class="ri-check-double-line" style="color: var(--color-primary);"></i> Ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                            in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img src="assets/img/feature/features-1.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="project">
+  <div class="text-center">
+    <div class="text-center container w-50 mb-4">
+      <h2 class="text-container fw-bold">Our Project</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, in voluptate odit dolorem aliquam quaerat distinctio aliquid error adipisci sed.</p>
+    </div>
+    <!-- Tabs.js -->
+    <ul class="project-list">
+      <li class="list list-active" data-filter="all">All</li>
+      <li class="list" data-filter="remodelling">Remodelling</li>
+      <li class="list" data-filter="construction">Construction</li>
+      <li class="list" data-filter="repair">Repair</li>
+      <li class="list" data-filter="design">Design</li>
+    </ul>
+
+    <div class="tab-list d-flex flex-wrap px-3 justify-content-center gap-3">
+      <div class="tab-box w-25 remodelling">
+        <img src="assets/img/project-list/remodeling-1.jpg" alt="tab"  class="w-100">
+      </div>
+
+      <div class="tab-box w-25 remodelling">
+        <img src="assets/img/project-list/remodeling-2.jpg" alt="tab"  class="w-100">
+      </div>
+
+      <div class="tab-box w-25 remodelling">
+        <img src="assets/img/project-list/remodeling-3.jpg" alt="tab"  class="w-100">
+      </div>
+      
+      <div class="tab-box w-25 construction">
+        <img src="assets/img/project-list/construction-1.jpg" alt="tab"  class="w-100">
+      </div>
+
+      <div class="tab-box w-25 construction">
+        <img src="assets/img/project-list/construction-2.jpg" alt="tab"  class="w-100">
+      </div>
+
+      <div class="tab-box w-25 construction">
+        <img src="assets/img/project-list/construction-3.jpg" alt="tab" class="w-100">
+      </div>
+
+      <div class="tab-box w-25 repair">
+        <img src="assets/img/project-list/repairs-1.jpg" alt="tab" class="w-100">
+      </div>
+
+      <div class="tab-box w-25 repair">
+        <img src="assets/img/project-list/repairs-2.jpg" alt="tab" class="w-100">
+      </div>
+
+      <div class="tab-box w-25 repair">
+        <img src="assets/img/project-list/repairs-3.jpg" alt="tab" class="w-100">
+      </div>
+
+      <div class="tab-box w-25 design">
+        <img src="assets/img/project-list/design-1.jpg" alt="tab" class="w-100">
+      </div>
+      
+      <div class="tab-box w-25 design">
+        <img src="assets/img/project-list/design-2.jpg" alt="tab" class="w-100">
+      </div>
+      
+      <div class="tab-box w-25 design">
+        <img src="assets/img/project-list/design-3.jpg" alt="tab" class="w-100">
+      </div>
+      
+    
+      
+      
+    </div>
+  </div>
+</section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(document).ready(function(){
+        $('.list').click(function(){
+          const value = $(this).attr('data-filter')
+          if(value == 'all'){
+            $('.tab-box').show(1000)
+          }else{
+            $('.tab-box').not('.' + value).hide(1000)
+            $('.tab-box').filter('.' + value).show(1000)
+          }
+        })
+
+        $('.list').click(function(){
+          $(this).addClass('list-active').siblings().removeClass('list-active')
+        })
+      })
+    </script>
+  </body>
+</html>
