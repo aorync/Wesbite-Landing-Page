@@ -144,6 +144,10 @@ header {
     left: 10px;
 }
 
+.card-construction {
+    margin-bottom: 24px;
+}
+
 .card-box {
     display: flex;
     border: 1px solid #dcdcdc;
